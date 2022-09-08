@@ -1,0 +1,10 @@
+gender=c(rep("male",222),rep("female",223))
+class(gender)
+gender=factor(gender)
+class(gender)
+levels(gender)
+gender=relevel(gender,ref = "male")
+table(gender)
+trees
+print(gender)
+data()

@@ -1,0 +1,49 @@
+a=2
+b=8
+c=a%%b
+print(c)
+seq(1,10, by=1)
+my_age=22
+my_name="Abhay"
+print(my_age)
+print(my_name)
+a=seq(1,5, by=1)
+print(min(a))
+print(max(a))
+t=c("ww","ee","ewew","wew")
+u=t[c(2,4)]
+print(u)
+v1=c(1,2,3,4,5)
+v2=c(6,4,3,5,3)
+v3=v1*v2
+print(v3)
+addresult=v1+v2
+print(addresult)
+sortresult=sort(v1)
+print(sortresult)
+a=c(1,3,2,5,4,6,7,8,9)
+order(a,ascending,TRUE)
+print(a)
+x=c(1,3,2,5,4,6,7,8,9)
+x[3]=5
+print(x)
+data=read.csv()
+print(data)
+print(ncol(data))
+print(nrow(data))
+print()
+# 24/08/2022
+cat=data.frame(
+ record=c("name","roll","work"),
+ book=c("A12","A13","A14"),
+ time=c("2","3","4")
+)
+cat$book
+line=rbind(cat,c("rs",230,450,320))
+block=cbind(cat,"mist")
+record2=data.frame(
+  steps=c(2,46,34),
+  place=c("east","west","up")
+)
+record2$steps
+exportme=read.csv(C:\\users\\Abhay khajuria\\Desktop\\excel)
